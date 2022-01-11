@@ -212,3 +212,31 @@
   font-size: 2rem;
   padding: 5px 20px;
 }
+@media only screen and (max-width: 600px) {
+  .project-page-item {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .skills {
+    display: block;
+  }
+  .skills > h1 {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+  .education {
+    display: block;
+  }
+  .education > h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .education-info > p {
+    padding-left: 0;
+  }
+  .location-section {
+    display: block;
+  }
+}
